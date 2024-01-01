@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://mongodb:docker@localhost
+      database: chatDb
+    redis:
+      host: localhost
+      port: 6379
+
+logging:
+  level:
+    org.springframework.data.redis: DEBUG
+    com.example.demochat: DEBUG
